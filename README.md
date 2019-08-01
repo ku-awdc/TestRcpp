@@ -5,7 +5,7 @@ This is an extremely simply R package to check that your R installation, LaTeX i
 To check your installation run the following code in R:
 
 ```r
-install.packages('devtools')
+install.packages(c('devtools','Rcpp'))
 devtools::install_github('ku-awdc/TestRcpp')
 TestRcpp::TestRcpp()
 ```
