@@ -1,0 +1,11 @@
+Package: TestRcpp
+Type: Package
+Title: Installing this test package checks that your R, C++ and LaTeX installation is working
+Version: 0.1-1
+Date: 2019-08-01
+Authors@R: person("Matthew", "Denwood", role=c("aut","cre"), email="md@sund.ku.dk")
+Maintainer: Matthew Denwood <md@sund.ku.dk>
+License: GPL-3
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 1.0.0)
+LinkingTo: Rcpp
